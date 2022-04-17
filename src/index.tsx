@@ -6,6 +6,7 @@ import { createServer, Model } from 'miragejs';
 const keyLocalStorage = 'key';
 
 createServer({
+  environment: 'test',
   models:{
     transaction: Model,
   },
