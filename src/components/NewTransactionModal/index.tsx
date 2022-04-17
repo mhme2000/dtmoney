@@ -71,7 +71,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
                     onChange={(e) => setCategory(e.target.value)}
                     />
                 <button type="submit">
-                    Cadastrar
+                    Save
                 </button>
             </ Container>
         </Modal>
